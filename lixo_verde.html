@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixo Verde</title>
+    <link rel="stylesheet" href="lixo_verde.css">
+    <link rel="shortcut icon" href="/img/icon.png">
+    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!--Header-->
+    <header>
+        <!--order 1-->
+        <div class="logos">
+            <a href="/index.html"><img class="logoBgWhite" src="/img/logo.png" alt="">
+                <img class="logoBgBlack" src="/img/logo2.png" alt=""></a>
+        </div>
+
+        <!--order 2-->
+        <nav id="menu">
+            <ul id="imenu-list" class="menu-list">
+                <li><a href="/pag_ind/lixo_industrial.html">Sobre nós</a></li>
+                <li><a href="/curiosidades/curiosidades.html">Curiosidades</a></li>
+                <li><a href="#">Campanhas</a></li>
+            </ul>
+            <script>
+
+                var menuButton = document.getElementById("menu-btn");
+                var menu = document.getElementById("menu");
+
+                menu.style.transition("2s");
+
+                function showmenu() {
+                    if (menu.style.display === "none") {
+                        menu.style.display = "block";
+                    } else {
+                        menu.style.display = "none";
+                    }
+                };
+
+            </script>
+        </nav>
+
+        <!--order 3-->
+        <div class="dark_btn">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label" id="change">
+                <i id="sun" class="fa-solid fa-cloud-sun"></i>
+                <i id="moon" class="fa-solid fa-moon"></i>
+            </label>
+
+            <script>
+                const toggleBtn = document.getElementById('toggle');
+                const body = document.body;
+
+                toggleBtn.addEventListener('click', function () {
+                    body.classList.toggle('dark')
+                });
+            </script>
+        </div>
+
+        <!--order 4-->
+        <button onclick="showmenu()" id="menu-btn"><i class="fa-solid fa-water"></i></button>
+    </header>
+
+    <main id="top">
+
+        <div class="text12">
+            <h2>Lixo Verde: O que caracteriza esse tipo de resíduo?</h2>
+            <div class="text1">
+                <img src="https://www.pensamentoverde.com.br/wp-content/uploads/2018/02/1-lixo-verde-2.jpg" alt=""
+                    height="200px" width="350">
+
+                <p>No Brasil, a maior parte desse tipo de resíduo é descartada em terrenos ou em aterros sanitários.
+                    Portanto, é correto afirmar que o País não costuma dar uma destinação útil para o lixo, perdendo o
+                    grande potencial de aproveitamento desse material orgânico.<br>
+                    Vale destacar que a matéria vegetal que forma o lixo verde pode ser usada de várias maneiras,
+                    levando inclusive à geração de empregos e renda nos mais diversos setores. Entre as alternativas
+                    para uso útil do lixo verde, é possível citar:
+                </p>
+
+                <p><strong>O lixo verde</strong> é composto por todos os resíduos resultantes dos processos de remoção
+                    ou poda da vegetação, especialmente plantas e árvores. O conceito descreve os restos da arborização
+                    e engloba sobretudo os troncos, galhos e cascas de árvores, bem como folhas (secas ou verdes) e
+                    flores. Em outras palavras, trata-se do material orgânico originário da flora.
+                </p>
+
+                <ul>
+                    <li>Preparação de adubos orgânicos;</li>
+                    <li>Geração de energia limpa;</li>
+                    <li>Produção de móveis a partir de troncos e galhos das árvores;</li>
+                    <li>Construção de quiosques, moradias populares e pérgolas de madeira;</li>
+                    <li>Desenvolvimento de áreas de compostagem;</li>
+                    <li>Criação de artigos decorativos e artesanais;</li>
+                    <li>Fabricação de papéis, cartões e papelão recicláveis.</li>
+                </ul>
+            </div>
+
+
+            <div class="video1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/00K4pnobsxs?si=cRd45Cn-Cn7A1wEy"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+
+
+            <h2>Qual a importância de descartar o lixo verde de maneira correta?</h2>
+            <div class="text2">
+                <p>
+                    <strong>Além</strong> de ser um desperdício de uma matéria orgânica preciosa, a gestão inadequada
+                    dos restos da arborização urbana custa caro para os municípios. Surge também a necessidade de áreas
+                    extensas para armazenar os dejetos, como os famosos lixões e aterros sanitários. No Brasil, é muito
+                    comum inclusive que o lixo verde seja simplesmente descartado em terrenos vazios.
+                </p>
+
+                <p>
+                    No entanto, 95% das localidades não apresentam dados sobre os gastos com essa atividade ou sobre a
+                    quantidade de resíduos produzidos (56%). Sem essas informações, não é possível estabelecer um plano
+                    eficiente para dar fim às sobras de matéria vegetal. Uma melhora no desempenho depende do
+                    treinamento dos profissionais que atuam na reciclagem dos restos.
+                </p>
+
+                <p>
+                    Em geral, as principais responsáveis por autorizar a retirada e poda de vegetação são as
+                    prefeituras. O poder público também é o principal responsável por efetuar o serviço (em 42% dos
+                    casos, por conta própria e mais 21% em conjunto com a população). Estudos mostram que, em 93% das
+                    cidades, é a administração municipal que define o destino final do lixo.
+                </p>
+
+                <img src="https://www.lippel.com.br/Assets/Cases/M_d3c2a8f1bcd33eb.jpg" alt="">
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <img src="/pag_ind/fotos/logo_black_and_white.png" alt="" height="120px">
+        <hr>
+        <div class="tudo">
+            <div class="voltar">
+                <h3>Volte para:</h3>
+
+                <a href="#top">Topo&uarr;</a>
+                <a href="/index.html">Home</a>
+            </div>
+
+            <div class="referencias">
+                <h3>Referências da Página:</h3>
+                <a href="https://www.suapesquisa.com/pesquisa/lixo_verde.htm">Sua Pesquisa.com</a>
+                <a href="https://www.pensamentoverde.com.br/economia-verde/descarte-de-lixo-verde-onde-descartar-e-importancia-da-atividade/">Pensamento Verde</a>
+                <a href="https://lixoverde.com.br/quem-somos/">Lixoverde.com</a>
+                <!-- <a href="">Referência Quatro</a> -->
+            </div>
+
+            <div class="links_rapidos">
+                <h3>Links Rápidos</h3>
+                <a href="">Siga nosso linktree</a>
+                <a href="/pag_ind/main.html">Sobre nós</a>
+                <a href="/curiosidades/curiosidades.html">Curiosidades</a>
+                <a href="#">Campanhas</a>
+            </div>
+        </div>
+
+        <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
+    </footer>
+
+
+
+
+
+</body>
