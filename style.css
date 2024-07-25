@@ -21,8 +21,6 @@
     font-family: fff;
     src: url(Roboto-Black.ttf);
 }
-
-
 :root{
     --main-verde: #4ae28e;
     --main-azul: #597bfe;
@@ -48,9 +46,7 @@ header {
     box-shadow: -1px -8px 40px #0000006e;
     height: 100px;
     background-color: #ffffffc6;
-
     backdrop-filter: blur(10px);
-
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -218,7 +214,6 @@ header {
         /*-----------------menu-hamburger-----------------*/
             #menu-btn {
                 display: flex;
-                /* margin-bottom: 20px; */
                 border: none;
                 font-size: 25px;
                 background-color: #f0f8ff00;
@@ -334,14 +329,10 @@ header {
         gap: 1rem 4rem;
         margin-top: 3rem;
         
-        
-
-        & img{
+         & img{
             height: 250px;
             width: 400px;
-            
-        
-        }
+             }
 
         & p:nth-child(1){
             
@@ -416,14 +407,10 @@ header {
             gap: 1rem 4rem;
             margin-top: 3rem;
             
-            
-        
-            & img{
+             & img{
                 height: auto;
                 width: 330px;
-                
-               
-            }
+                }
         
             & p:nth-child(1){
                 
@@ -455,7 +442,6 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     margin-top: 3rem;
 
     & hr{
